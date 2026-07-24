@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "AuraTravel",
+    "tagline": "Wander Without Limits",
+    "logo": "/logo.png",
+    "nav": [
+      { "name": "Home", "link": "#home" },
+      { "name": "Destinations", "link": "#destinations" },
+      { "name": "Experiences", "link": "#experiences" },
+      { "name": "Packages", "link": "#packages" },
+      { "name": "About Us", "link": "#about" }
+    ],
+    "cta": {
+      "name": "Book A Trip",
+      "link": "#search"
+    }
+  },
+  "hero": {
+    "backgroundImage": "/images/hero.jpg",
+    "badge": "✦ EXPLORE THE UNTOUCHED WORLD",
+    "title": "Journey Beyond The Ordinary",
+    "subtitle": "Immerse yourself in breathtaking destinations, curated luxury stays, and unforgettable adventures around the globe.",
+    "primaryCta": "Explore Destinations",
+    "secondaryCta": "Watch Experience",
+    "stats": [
+      { "value": "150+", "label": "Destinations" },
+      { "value": "25k+", "label": "Happy Adventurers" },
+      { "value": "4.9 ★", "label": "Top Rated Stays" },
+      { "value": "24/7", "label": "Luxury Concierge" }
+    ]
+  }
+}
