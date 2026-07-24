@@ -38,7 +38,6 @@ const ExploreWithUs = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
                 {/* Left Section: Text Content & Features */}
-                {/* <section className="relative overflow-hidden bg-[#F7F7F7]"> */}
                 <div className="mx-auto flex max-w-7xl items-center px-6 py-20">
 
                     {/* Left Content */}
@@ -86,14 +85,8 @@ const ExploreWithUs = () => {
                             </button>
                         </div>
                     </div>
-
-
-
                 </div>
-
-                {/* Decorative Background */}
-                <div className="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-[radial-gradient(circle,rgba(0,0,0,0.08)_2px,transparent_2px)] [background-size:14px_14px] opacity-40" />
-                {/* </section> */}
+              
 
                 {/* Right Section: Multiple Tilted Image Placeholders (Stacked vertically) */}
                 <div className="relative mx-auto h-[750px] w-full max-w-[650px]">
