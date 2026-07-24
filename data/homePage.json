@@ -19,5 +19,19 @@
     "badge": "EXPLORE THE UNTOUCHED WORLD",
     "title": "Explore the World Without Limits",
     "subtitle": "Every destination has a story. Let yours begin with the perfect journey."
+  },
+  "exploreWithUs":{
+    "eyebrow":"Time To Travel",
+    "title":"Explore With Us",
+    "packagesInclude":[
+        "Travel Insurance",
+        "Hotel Booking",
+        "Visa Services",
+        "Vehicle Rentals"
+    ],
+    "cta":{
+        "name":"Book Now",
+        "link":"#search"
+    }
   }
 }

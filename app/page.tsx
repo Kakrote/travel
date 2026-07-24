@@ -2,6 +2,7 @@
 
 import React from "react";
 import HeroSection from "@/components/HeroSection";
+import ExploreWithUs from "@/components/ExploreWithUs";
 
 export default function Home() {
   const featuredDestinations = [
@@ -38,6 +39,7 @@ export default function Home() {
     <div className="bg-slate-50 text-slate-900 min-h-screen">
       {/* Hero Section Component */}
       <HeroSection />
+      <ExploreWithUs/>
 
       {/* Featured Destinations Section */}
       <section id="destinations" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
