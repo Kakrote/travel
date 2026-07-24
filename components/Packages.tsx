@@ -66,11 +66,11 @@ export default function PopularPackages() {
 
         <div className="mb-16 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <span className=" px-4 py-2 text-xs font-bold uppercase tracking-[0.3em] text-[#13ab09]">
+            <span className=" px-4 py-2 text-xl font-bold uppercase tracking-[0.3em] text-[#13ab09]">
               Best Selling Tours
             </span>
 
-            <h2 className="mt-5 max-w-xl text-[clamp(3rem,4vw,5rem)] uppercase leading-[4rem] tracking-widest font-black text-slate-900">
+            <h2 className="mt-5 max-w-xl text-[clamp(3rem,8vw,7rem)] uppercase leading-[7rem] tracking-widest font-black text-slate-900">
               Popular <span className="text-lime-500 block">Packages</span>
             </h2>
 

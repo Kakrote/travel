@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import ExploreWithUs from "@/components/ExploreWithUs";
 import Destination from "@/components/Destinations";
 import PopularPackages from "@/components/Packages";
+import HolidayExperience from "@/components/EnjoyHoliday";
 
 export default function Home() {
  
@@ -21,7 +22,8 @@ export default function Home() {
       {/* Popular Packages Section */}
       <PopularPackages />
 
-
+      {/* Holiday Experience Section */}
+      <HolidayExperience />
 
       {/* Footer */}
       <footer className="py-12 border-t border-slate-200 bg-white text-center text-xs text-slate-500">
