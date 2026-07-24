@@ -35,7 +35,7 @@ export default function Destinations() {
             {/* Background */}
 
             <Image
-                src="/images/safari-bg.jpg"
+                src="/images/bg.jpg"
                 fill
                 alt=""
                 className="object-cover"
@@ -43,11 +43,11 @@ export default function Destinations() {
 
             <div className="absolute inset-0 bg-black/45 backdrop-blur-[2px]" />
 
-            <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center gap-14 px-6 py-20">
+            <div className="relative z-10 mx-auto flex min-h-screen container items-center gap-14 px-6 py-20">
 
                 {/* LEFT */}
 
-                <div className="w-full max-w-sm text-white">
+                <div className="w-full max-w-2xl text-white">
 
                     <h2 className="text-7xl font-black uppercase leading-none">
                         Destinations
