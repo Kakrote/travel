@@ -122,7 +122,7 @@ export default function Destinations() {
                 {/* LEFT */}
                 <div className="w-full max-w-2xl text-white">
 
-                    <h2 className="text-7xl font-black uppercase leading-none">
+                    <h2 className="text-7xl font-black uppercase tracking-widest leading-none">
                         Destinations
                     </h2>
 
@@ -158,11 +158,11 @@ export default function Destinations() {
 
                             <div className="absolute bottom-8 left-8 z-10">
 
-                                <h3 className="whitespace-pre-line text-4xl font-extrabold uppercase leading-none text-white">
+                                <h3 className="whitespace-pre-line text-4xl tracking-widest font-extrabold uppercase leading-none text-white">
                                     {item.title}
                                 </h3>
 
-                                <p className="mt-2 text-sm font-semibold uppercase tracking-wider text-lime-300">
+                                <p className="mt-2 text-sm font-semibold  uppercase tracking-wider text-lime-300">
                                     {item.location}
                                 </p>
 

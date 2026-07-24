@@ -4,6 +4,7 @@ import React from "react";
 import HeroSection from "@/components/HeroSection";
 import ExploreWithUs from "@/components/ExploreWithUs";
 import Destination from "@/components/Destinations";
+import PopularPackages from "@/components/Packages";
 
 export default function Home() {
  
@@ -16,6 +17,9 @@ export default function Home() {
 
       {/* Featured Destinations Section */}
       <Destination />
+
+      {/* Popular Packages Section */}
+      <PopularPackages />
 
 
 

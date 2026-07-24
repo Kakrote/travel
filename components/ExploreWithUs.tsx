@@ -47,13 +47,13 @@ const ExploreWithUs = () => {
                             Time To Travel
                         </p>
 
-                        <h1 className="text-[90px] font-extrabold uppercase leading-[0.9] text-slate-900">
+                        <h1 className="text-[90px] font-extrabold uppercase tracking-widest leading-[0.9] text-slate-900">
                             Explore
                             <br />
                             With Us
                         </h1>
 
-                        <h3 className="mt-14 mb-6 text-2xl font-bold uppercase text-gray-400">
+                        <h3 className="mt-14 mb-6 text-2xl font-bold tracking-widest uppercase text-gray-400">
                             All Packages Include
                         </h3>
 

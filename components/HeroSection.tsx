@@ -18,12 +18,10 @@ const HeroSection = () => {
       {/* Hero Content */}
       <div className="relative z-10  container  flex flex-col items-start ">
         {/* Badge */}
-        <span className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4 px-3.5 py-1.5 rounded-full bg-slate-900/60 backdrop-blur-md border border-white/10">
-          {homePage.hero.badge}
-        </span>
+       
 
         {/* Title */}
-        <h1 className="text-[clamp(2rem,5vw,4rem)] max-w-2xl font-bold tracking-tight text-white mb-6 leading-tight">
+        <h1 className="text-[clamp(2rem,5vw,4rem)] max-w-2xl font-bold tracking-wider text-white mb-6 leading-tight">
           {homePage.hero.title}
         </h1>
 
@@ -32,13 +30,7 @@ const HeroSection = () => {
           {homePage.hero.subtitle}
         </p>
 
-        {/* Primary CTA */}
-        <a
-          href="#destinations"
-          className="px-8 py-3.5 text-sm font-semibold rounded-full bg-emerald-600 hover:bg-emerald-500 text-white transition-all shadow-lg hover:shadow-emerald-600/30 hover:scale-105 active:scale-95"
-        >
-          Explore Destinations
-        </a>
+       
       </div>
     </section>
   );

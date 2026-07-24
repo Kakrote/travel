@@ -24,7 +24,7 @@ const Header = () => {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                    ? "glass-header-scrolled py-3.5"
+                    ? " backdrop-blur-[0.5px] py-3.5"
                     : "bg-transparent py-6"
                 }`}
         >
@@ -55,7 +55,7 @@ const Header = () => {
                         </div>
                         <div className="flex flex-col">
                             <span
-                                className={`text-xl font-bold tracking-wider transition-colors duration-300 ${isScrolled ? "text-slate-900" : "text-white drop-shadow-sm"
+                                className={`text-xl  font-bold tracking-wider transition-colors duration-300 ${isScrolled ? "text-slate-900" : "text-white drop-shadow-sm"
                                     }`}
                             >
                                 {homePage.header.title.toUpperCase()}
@@ -84,7 +84,7 @@ const Header = () => {
                                         key={navItem.name}
                                         href={navItem.link}
                                         onClick={() => setActiveNav(navItem.name)}
-                                        className={`relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${isActive
+                                        className={`relative tracking-wider px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${isActive
                                                 ? isScrolled
                                                     ? "text-slate-900 font-bold"
                                                     : "text-white font-bold"
@@ -112,7 +112,7 @@ const Header = () => {
                     <div className="hidden md:flex items-center gap-4">
                         <a
                             href={homePage.header.cta.link}
-                            className="relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 rounded-full shadow-md hover:shadow-lg hover:scale-105 active:scale-95 focus:outline-none"
+                            className="relative inline-flex tracking-widest items-center justify-center px-6 py-2.5 text-sm  text-white transition-all duration-300 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 rounded-full shadow-md hover:shadow-lg hover:scale-105 active:scale-95 focus:outline-none"
                         >
                             <span>{homePage.header.cta.name}</span>
                             <svg
